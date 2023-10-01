@@ -1,0 +1,145 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 250px;
+}
+
+.maindiv {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #0d1b2a;
+  font-family: "Spline Sans Mono", monospace;
+  color: white;
+  size: 16px;
+  margin: 0;
+}
+
+nav {
+  padding-top: 15px;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: none; /* Remove background color */
+}
+
+.nav-item {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.right {
+  margin-left: auto; /* Align Name to the right */
+}
+
+/*
+-----------------------------------
+            SECOND
+              PAGE  
+----------------------------------- */
+
+.secondpage {
+  margin-top: 2%;
+  margin-left: 2%;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  padding-bottom: 2.5%;
+}
+
+.name1 {
+  font-family: "Staatliches", cursive;
+  color: black;
+  font-size: 48px;
+}
+
+.second-discription {
+  font-family: "Spline Sans Mono";
+  font-size: 20;
+  width: 800px;
+}
+
+/* -----------------------------------
+            Main
+              Discription  
+----------------------------------- */
+.main-discription {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2%;
+  gap: 15px;
+}
+
+.main-discription img {
+  height: 480px;
+  width: 700px;
+  max-width: 700px;
+  border-radius: 40px;
+}
+
+.main-discription h2 {
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+.main-discription p {
+  font-family: "Spline Sans Mono";
+  font-size: 15px;
+}
+
+/* -----------------------------------
+            Footer  
+----------------------------------- */
+
+.footer-disc {
+  width: 630px;
+}
+
+.footer {
+  margin-left: 10%;
+  padding: 10px;
+}
+
+.footer h1 {
+  font-family: "Staatliches", cursive;
+  letter-spacing: 2px;
+}
+
+.footer p {
+  font-family: "Spline Sans Mono";
+}
+
+.footer-icon {
+  margin-top: 1.5%;
+  display: flex;
+  gap: 20px;
+  
+}
+
+
+.footer-bootom{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Spline Sans Mono";
+}
