@@ -8,6 +8,10 @@ body {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: black;}
+
 .main-heading{
     text-align: center;
     font-size: 60px;
